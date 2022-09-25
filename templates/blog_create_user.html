@@ -1,0 +1,9 @@
+<h3>Crear nuevo usuario</h3>
+{{alert}}
+<br>
+<form  method="post">
+{% csrf_token %}
+{{form}}
+
+<button type  = "submit"> cargar post</button>
+</form>

@@ -1,0 +1,11 @@
+create blog
+<br>
+<form method = "POST">
+    {% csrf_token %}
+    
+    titulo :  {{form.tittle}}
+    <br>
+    conte :  {{form.content}}
+
+    <button type  = "submit"> cargar post</button>
+</form>
